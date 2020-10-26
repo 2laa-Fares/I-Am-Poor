@@ -15,13 +15,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="ITY-wU-rJm">
-                                <rect key="frame" x="87" y="340" width="240" height="201"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coal" translatesAutoresizingMaskIntoConstraints="NO" id="ITY-wU-rJm">
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="aP7-Fu-bcb"/>
+                                    <constraint firstAttribute="width" constant="240" id="bsw-Oc-tbD"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.59999999999999998" green="0.88235294119999996" blue="0.75294117650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ITY-wU-rJm" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7wQ-yA-S77"/>
+                            <constraint firstItem="ITY-wU-rJm" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="KqH-Wt-Ga2"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
